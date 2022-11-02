@@ -12,3 +12,9 @@ Objective
 Reach the top of the mountains to win the game. 
 You only have three health, so avoid the red enemies
 If you run out of health the game will restart.
+
+Project info
+Name: Colin Charleson
+Student Number: 100787799
+1+0+0+7+8+7+7+9+9 = 48 (Even)
+https://github.com/ColinCharleson/EngingeBonusAssignment
