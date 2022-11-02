@@ -12,6 +12,10 @@ public class HealthManager : MonoBehaviour
         {
             instance = this;
         }
+        else
+		{
+            Destroy(gameObject);
+		}
     }
 
     //Player Stats
