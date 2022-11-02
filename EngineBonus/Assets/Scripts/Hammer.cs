@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Hammer : MonoBehaviour
 {
+	ICommand command;
 	private void OnTriggerEnter(Collider other)
 	{
 		if(other.tag == "Ice Block")
 		{
-			Destroy(other.gameObject);
+
+			command = new PlaceItemCommand(other.transform.position, other.transform);
+			CommandInvoker.AddCommand(command);
+
+			other.gameObject.SetActive(false);
 		}
 	}
 }

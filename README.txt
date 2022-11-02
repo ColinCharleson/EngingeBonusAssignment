@@ -5,6 +5,7 @@ A     - Move Left
 D     - Move Right
 Space - Jump
 Q     - Swing Hammer
+Z     - Undo Break Block
 
 Objective
 Reach the top of the mountains to win the game. 
