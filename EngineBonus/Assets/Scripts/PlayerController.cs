@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     //Components
     Rigidbody rb;
     Animator playerAnimations;
+    public GameObject winScreen;
 
     //Movement Variables
     public float jumpForce;
@@ -46,6 +47,11 @@ public class PlayerController : MonoBehaviour
         {
             playerAnimations.SetTrigger("Attack");
         }
+
+        if(transform.position.y >= 16.5)
+		{
+            winScreen.SetActive(true);
+		}
     }
 
 }
